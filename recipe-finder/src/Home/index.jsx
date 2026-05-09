@@ -22,7 +22,7 @@ const Home = () => {
   // const foods = [
   // //   { id: "chicken", name: "CHICKEN" },
   // //   { id: "pasta", name: "PASTA" },
-  // //   { id: "beef", name: "BEEF" },
+  // //   { id: "meat", name: "MEAT" },
   // //   { id: "salad", name: "SALAD" },
   // //   { id: "soup", name: "SOUP" },
   // //   { id: "chocolate", name: "CHOCOLATE" }
@@ -87,13 +87,13 @@ const Home = () => {
           </button>
 
           <button
-            className="btn beef"
+            className="btn meat"
             onClick={() => {
-              setSearchText("beef")
+              setSearchText("meat")
               setShowButtons(false)
             }}
           >
-            BEEF
+            MEAT
           </button>
 
           <button
