@@ -14,7 +14,7 @@ A React.js web application that allows users to search for recipes by ingredient
 
 | Login Page | Home Page | Meal Details |
 |------------|-----------|--------------|
-| _Add screenshot_ | _Add screenshot_ | _Add screenshot_ |
+| ![login](assets/login.jpeg)| ![Home](assets/home.jpeg) | ![Meal Deatails](assets/meal.jpeg) |
 
 ---
 
