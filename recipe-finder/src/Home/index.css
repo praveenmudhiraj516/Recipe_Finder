@@ -1,0 +1,137 @@
+/* ===== HOME CONTAINER ===== */
+.home-container {
+  display: flex;              /* use flex layout */
+  flex-direction: column;     /* items go top to bottom */
+  align-items: center;        /* center items horizontally */
+  width: 100%;
+  background-color:#f5eedc;  /* blue background */
+}
+
+.top-section-home{
+  background-color:#faf5f5;
+  width: 100%;
+  text-align: center;
+}
+.button-search{
+  padding: 5px 10px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+}
+
+
+/* ===== BUTTONS SECTION ===== */
+.button-container {
+  display: flex;          /* arrange buttons in a row */
+  gap: 12px;              /* space between buttons */
+  flex-wrap: wrap;        /* move to next line if needed */
+  justify-content: center;/* center buttons */
+}
+
+
+.btn {
+  padding: 10px 18px;     /* space inside button */
+  border: none;           /* remove border */
+  border-radius: 20px;    /* rounded corners */
+  color: white;           /* text color */
+  font-weight: bold;      /* bold text */
+  cursor: pointer;        /* hand cursor */
+       
+}
+
+
+
+/* individual button colors */
+.chicken { background-color: #d89e8d; }
+.pasta { background-color: #ffca28; color: black; }
+.beef { background-color: #8d6e63; }
+.salad { background-color: #66bb6a; }
+.soup { background-color: #42a5f5; }
+.chocolate { background-color: #5d4037; }
+
+
+/* ===== RESULTS SECTION ===== */
+.results-section {
+  display: flex;            /* flex layout */
+  flex-wrap: wrap;          /* allow next line */
+  justify-content: center;  /* center cards */
+  gap: 20px;                /* space between cards */
+  padding: 20px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+/* ===== MEAL CARD ===== */
+.result-item {
+  width: 250px;                           /* fixed width */
+  background-color: white;                /* white card */
+  border-radius: 10px;                    /* rounded corners */
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);  /* shadow */
+  text-align: center;                     /* center text */
+}
+
+/* image */
+.result-item img {
+  width: 100%;            /* full width */
+  border-radius: 10px;    /* rounded image */
+}
+
+/* title */
+.result-item h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* description */
+.result-item p {
+  font-size: 14px;
+  color: #555;
+}
+
+
+/* ===== TEST CLASS ===== */
+.test {
+  background-color: red;
+}
+.top-section-details{
+  
+ 
+  text-align: center;
+}
+.to-search-description{
+  color: gray;
+  font-size: 14px;
+}
+.search-box{
+  display: flex;
+  justify-content: space-between;
+}
+.search-field{
+  width: 40%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.heading-section{
+  font-family: 'Arial', sans-serif;
+}
+.to-logout-button{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  
+  
+}
+.to-back{
+  padding: 5px 10px;
+  background-color: #f1d5d5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

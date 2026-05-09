@@ -1,0 +1,85 @@
+/* ===== MAIN CARD ===== */
+.result-item {
+  width: 280px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  border-width: 0px;
+
+  min-height: 450px;   /* changed from height */
+  overflow: visible;   /* removed scroll */
+  
+}
+.meal-card{
+  text-decoration: none;
+  
+}
+
+/* ===== IMAGE ===== */
+.result-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+
+/* ===== TITLE ===== */
+.result-item h2 {
+  font-size: 18px;
+  margin: 10px;
+  color: #333;
+}
+
+
+/* ===== TAG CONTAINER ===== */
+.tag-container {
+  display: flex;
+  gap: 8px;
+  margin: 0 10px 10px 10px;
+}
+
+
+/* ===== TAGS ===== */
+.tag {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.tag.veg {
+  background-color: #fce8d5;
+  color: #d9822b;
+}
+
+.tag.region {
+  background-color: #dce7f7;
+  color: #3b6cb7;
+}
+
+
+/* ===== DESCRIPTION TEXT ===== */
+.result-item p {
+  font-size: 14px;
+  color: #555;
+  margin: 0 10px 15px 10px;
+  line-height: 1.4;
+
+  overflow: visible;   /* removed inner scroll */
+}
+
+
+
+
+
+/* ===== NORMAL BUTTON (READ MORE) ===== */
+.to-show {
+ color:#d9822b;
+ background-color: transparent;
+ border: none;
+}
+.icon{
+cursor: pointer;
+  margin-top: 20px;
+}

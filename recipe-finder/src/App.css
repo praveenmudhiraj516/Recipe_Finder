@@ -1,0 +1,39 @@
+
+ body {
+  background-color: #f5efe6;
+}
+
+/* main box */
+.search-box {
+  width: 600px;
+  margin: 100px auto;   /* center horizontally */
+  border: 2px solid orange;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* icon */
+.search-box span {
+  margin-right: 10px;
+}
+
+/* input */
+.search-box input {
+  width: 350px;
+  border: none;
+  outline: none;
+  
+}
+
+/* button */
+.search-box button {
+  padding: 5px 10px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+}
+.top-section{
+    background-color: #cfceca;
+    padding:10px
+}
